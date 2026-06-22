@@ -1,4 +1,4 @@
-const WIDGET_ORIGIN = 'https://329a-103-49-136-36.ngrok-free.app'
+const WIDGET_ORIGIN = 'https://3c0d-103-49-136-35.ngrok-free.app'
 
 export async function proxyWidgetRequest(request: Request, path: string) {
   const requestUrl = new URL(request.url)
