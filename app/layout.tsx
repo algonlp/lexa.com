@@ -44,7 +44,7 @@ export default function RootLayout({
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
         <script
-          src="https://3c0d-103-49-136-35.ngrok-free.app/widget.js"
+          src="/widget.js"
           data-widget-key="ww_62b36e072ef74237879a3e15d5999d0b"
         />
       </body>
