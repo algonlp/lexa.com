@@ -43,6 +43,10 @@ export default function RootLayout({
       <body className="font-sans antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
+        <script
+          src="/widget.js"
+          data-widget-key="ww_62b36e072ef74237879a3e15d5999d0b"
+        />
       </body>
     </html>
   )
